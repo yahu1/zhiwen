@@ -8,9 +8,9 @@ In the project directory, you can run:
 
 ### `npm i` to start
 
-### config the host of submit form api to display the PolicyIndex Page such as [text](http://127.0.0.1:8080/api/submit-form)
+config the host of submit form api to display the PolicyIndex Page such as [http://127.0.0.1:8080/api/submit-form](http://127.0.0.1:8080/api/submit-form)
 
-### config the host of receive data api to display the PolicySearch Page such as [text](http://127.0.0.1:8080/api/panelData)
+config the host of receive data api to display the PolicySearch Page such as [http://127.0.0.1:8080/api/panelData](http://127.0.0.1:8080/api/panelData)
 
 ### `npm start`
 
