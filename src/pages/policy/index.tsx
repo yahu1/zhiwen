@@ -118,6 +118,7 @@ const Policy: React.FC<PolicyProps> = ({ onClick }) => {
     //这段代码用来对接前后端，只需要更改post地址即可
     const onFinish = async (values: any) => {
         try {
+            onClick(values)
             // 发送表单数据给后端
             const response = await axios.post(`http://127.0.0.1:8080/api/submit-form`, values,
                 {
@@ -126,8 +127,8 @@ const Policy: React.FC<PolicyProps> = ({ onClick }) => {
                     },
                 });
             console.log('Form submitted:', response.data);
-            onClick(values)
             // 处理成功后的逻辑，如提示用户或重定向页面等
+            onClick(values)
         } catch (error) {
             console.error('Failed to submit form:', error);
             // 处理失败后的逻辑，如提示用户或重新尝试等

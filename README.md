@@ -6,6 +6,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm i` to start
+
+### config the host of submit form api to display the PolicyIndex Page such as [text](http://127.0.0.1:8080/api/submit-form)
+
+### config the host of receive data api to display the PolicySearch Page such as [text](http://127.0.0.1:8080/api/panelData)
+
 ### `npm start`
 
 Runs the app in the development mode.\
